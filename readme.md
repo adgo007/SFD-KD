@@ -48,10 +48,10 @@ pip install -r requirements.txt
 
 ## GRAZPEDWRI-DX
 
-You counld get GRAZPEDWRI-DX data from [here](https://www.synapse.org/#!Synapse:syn3193805/wiki/217752 "https://www.synapse.org/#!Synapse:syn3193805/wiki/217752").
+You counld get GRAZPEDWRI-DX data from [here](https://paperswithcode.com/dataset/grazpedwri-dx).
 
 ## FracAtlas
-You counld get FracAtlas raw data from [here](https://flare22.grand-challenge.org).
+You counld get FracAtlas raw data from [here](https://paperswithcode.com/dataset/fracatlas).
 
 # Training and testing
 
