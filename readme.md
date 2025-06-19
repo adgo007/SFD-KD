@@ -4,7 +4,7 @@ A pytorch implenment for SFD-KD：Structured Feature Decoupling Knowledge Distil
 
 # Overview of our SFD-KD
 
-![image-20250619124021506](C:\Users\ad\AppData\Roaming\Typora\typora-user-images\image-20250619124021506.png)
+![image-20250619124021506](SFD-KD.png)
 
 
 
