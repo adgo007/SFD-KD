@@ -46,19 +46,18 @@ class MOSE(nn.Module):
                 weight: Optional[Tensor] = None,
                 avg_factor: Optional[int] = None,
                 reduction_override: Optional[str] = None) -> Tensor:
-        # 对齐学生和教师特征
-        # # 1. 调整学生特征的通道数
-        s_input_channel = s_input.shape[1]  # 学生通道数
+        
+        s_input_channel = s_input.shape[1]  
         teacher_c = t_input.shape[1]
         adjust_channels = nn.Sequential(
             nn.Conv2d(s_input_channel, teacher_c, kernel_size=1, stride=1, padding=0),
             nn.BatchNorm2d(teacher_c),
             nn.ReLU(inplace=True)).to("cuda")
 
-        # # 2. 获取教师特征的空间尺寸
+      
         teacher_h, teacher_w = t_input.shape[2], t_input.shape[3]
 
-        # # 3. 调整学生特征的空间尺寸以匹配教师特征
+       
         upsample = nn.Upsample(size=(teacher_h, teacher_w), mode='bilinear', align_corners=True)
         s_input = adjust_channels(s_input)
         s_input = upsample(s_input)
