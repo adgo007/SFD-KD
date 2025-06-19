@@ -665,4 +665,5 @@ Specially thanks to the following:
 }
 ```
 
-License This project is released under the [Apache 2.0 license](https://github.com/open-mmlab/mmdetection/blob/main/LICENSE "Apache 2.0 license") of mmdetection.
+# License 
+This project is released under the [Apache 2.0 license](https://github.com/open-mmlab/mmdetection/blob/main/LICENSE "Apache 2.0 license") of mmdetection.
