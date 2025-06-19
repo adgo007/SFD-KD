@@ -639,12 +639,6 @@ Specially thanks to the following:
   journal= {arXiv preprint arXiv:1906.07155},
   year={2019}
 }
-@misc{2021mmrazor,
-    title={OpenMMLab Model Compression Toolbox and Benchmark},
-    author={MMRazor Contributors},
-    howpublished = {\url{https://github.com/open-mmlab/mmrazor}},
-    year={2021}
-}
 ```
 
 ```bash
